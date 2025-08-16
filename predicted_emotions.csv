@@ -1,0 +1,667 @@
+year_month,menu_item,predicted_emotion
+2023-01,Caesar Salad,Happy/Satisfied
+2023-01,Chicken,Happy/Satisfied
+2023-01,Chicken Biryani,Happy/Satisfied
+2023-01,Chole Bhature,Indifferent
+2023-01,Egg Curry,Sad/Dissatisfied
+2023-01,Fish Curry,Happy/Satisfied
+2023-01,Fried Rice,Sad/Dissatisfied
+2023-01,Garlic Bread,Happy/Satisfied
+2023-01,Gulab Jamun,Happy/Satisfied
+2023-01,Ice Cream,Happy/Satisfied
+2023-01,Idli,Happy/Satisfied
+2023-01,Kofta Curry,Happy/Satisfied
+2023-01,Manchurian,Indifferent
+2023-01,Masala Dosa,Happy/Satisfied
+2023-01,Mixed Vegetable,Indifferent
+2023-01,Mushroom Soup,Happy/Satisfied
+2023-01,Mutton Curry,Happy/Satisfied
+2023-01,Paneer Butter Masala,Happy/Satisfied
+2023-01,Paneer Tikka,Indifferent
+2023-01,Pasta,Happy/Satisfied
+2023-01,Pav Bhaji,Unclear
+2023-01,Rasmalai,Indifferent
+2023-01,Roti,Happy/Satisfied
+2023-01,Samosa,Indifferent
+2023-01,Spring Rolls,Happy/Satisfied
+2023-01,Uttapam,Happy/Satisfied
+2023-01,Vada,Indifferent
+2023-01,Veg Biryani,Happy/Satisfied
+2023-01,Veg Curry,Unclear
+2023-01,bonda,Happy/Satisfied
+2023-01,egg,Happy/Satisfied
+2023-01,uggani,Indifferent
+2023-02,Caesar Salad,Indifferent
+2023-02,Chicken,Indifferent
+2023-02,Chicken Biryani,Happy/Satisfied
+2023-02,Chole Bhature,Happy/Satisfied
+2023-02,Egg Curry,Happy/Satisfied
+2023-02,Fish Curry,Indifferent
+2023-02,Fried Rice,Happy/Satisfied
+2023-02,Garlic Bread,Happy/Satisfied
+2023-02,Gulab Jamun,Happy/Satisfied
+2023-02,Ice Cream,Happy/Satisfied
+2023-02,Idli,Happy/Satisfied
+2023-02,Kofta Curry,Indifferent
+2023-02,Manchurian,Happy/Satisfied
+2023-02,Masala Dosa,Happy/Satisfied
+2023-02,Mixed Vegetable,Indifferent
+2023-02,Mushroom Soup,Happy/Satisfied
+2023-02,Mutton Curry,Happy/Satisfied
+2023-02,Paneer Butter Masala,Indifferent
+2023-02,Paneer Tikka,Unclear
+2023-02,Pasta,Happy/Satisfied
+2023-02,Pav Bhaji,Happy/Satisfied
+2023-02,Rasmalai,Happy/Satisfied
+2023-02,Roti,Indifferent
+2023-02,Samosa,Happy/Satisfied
+2023-02,Spring Rolls,Indifferent
+2023-02,Uttapam,Happy/Satisfied
+2023-02,Vada,Indifferent
+2023-02,Veg Biryani,Happy/Satisfied
+2023-02,Veg Curry,Happy/Satisfied
+2023-02,bonda,Happy/Satisfied
+2023-02,egg,Happy/Satisfied
+2023-02,uggani,Indifferent
+2023-03,Caesar Salad,Indifferent
+2023-03,Chicken,Happy/Satisfied
+2023-03,Chicken Biryani,Happy/Satisfied
+2023-03,Chole Bhature,Happy/Satisfied
+2023-03,Egg Curry,Happy/Satisfied
+2023-03,Fish Curry,Happy/Satisfied
+2023-03,Fried Rice,Happy/Satisfied
+2023-03,Garlic Bread,Happy/Satisfied
+2023-03,Gulab Jamun,Happy/Satisfied
+2023-03,Ice Cream,Happy/Satisfied
+2023-03,Idli,Indifferent
+2023-03,Kofta Curry,Indifferent
+2023-03,Manchurian,Unclear
+2023-03,Masala Dosa,Happy/Satisfied
+2023-03,Mixed Vegetable,Indifferent
+2023-03,Mushroom Soup,Indifferent
+2023-03,Mutton Curry,Happy/Satisfied
+2023-03,Paneer Butter Masala,Happy/Satisfied
+2023-03,Paneer Tikka,Happy/Satisfied
+2023-03,Pasta,Unclear
+2023-03,Pav Bhaji,Happy/Satisfied
+2023-03,Rasmalai,Indifferent
+2023-03,Roti,Happy/Satisfied
+2023-03,Samosa,Happy/Satisfied
+2023-03,Spring Rolls,Happy/Satisfied
+2023-03,Uttapam,Happy/Satisfied
+2023-03,Vada,Happy/Satisfied
+2023-03,Veg Biryani,Indifferent
+2023-03,Veg Curry,Happy/Satisfied
+2023-03,bonda,Happy/Satisfied
+2023-03,egg,Happy/Satisfied
+2023-03,uggani,Indifferent
+2023-04,Caesar Salad,Happy/Satisfied
+2023-04,Chicken,Happy/Satisfied
+2023-04,Chicken Biryani,Happy/Satisfied
+2023-04,Chole Bhature,Happy/Satisfied
+2023-04,Egg Curry,Happy/Satisfied
+2023-04,Fish Curry,Happy/Satisfied
+2023-04,Fried Rice,Happy/Satisfied
+2023-04,Garlic Bread,Happy/Satisfied
+2023-04,Gulab Jamun,Happy/Satisfied
+2023-04,Ice Cream,Happy/Satisfied
+2023-04,Idli,Sad/Dissatisfied
+2023-04,Kofta Curry,Happy/Satisfied
+2023-04,Manchurian,Indifferent
+2023-04,Masala Dosa,Happy/Satisfied
+2023-04,Mixed Vegetable,Happy/Satisfied
+2023-04,Mushroom Soup,Happy/Satisfied
+2023-04,Mutton Curry,Happy/Satisfied
+2023-04,Paneer Butter Masala,Indifferent
+2023-04,Paneer Tikka,Happy/Satisfied
+2023-04,Pasta,Indifferent
+2023-04,Pav Bhaji,Happy/Satisfied
+2023-04,Rasmalai,Happy/Satisfied
+2023-04,Roti,Happy/Satisfied
+2023-04,Samosa,Happy/Satisfied
+2023-04,Spring Rolls,Indifferent
+2023-04,Uttapam,Happy/Satisfied
+2023-04,Vada,Happy/Satisfied
+2023-04,Veg Biryani,Happy/Satisfied
+2023-04,Veg Curry,Happy/Satisfied
+2023-04,bonda,Happy/Satisfied
+2023-04,egg,Happy/Satisfied
+2023-04,uggani,Happy/Satisfied
+2023-05,Caesar Salad,Sad/Dissatisfied
+2023-05,Chicken,Happy/Satisfied
+2023-05,Chicken Biryani,Happy/Satisfied
+2023-05,Chole Bhature,Happy/Satisfied
+2023-05,Egg Curry,Sad/Dissatisfied
+2023-05,Fish Curry,Happy/Satisfied
+2023-05,Fried Rice,Happy/Satisfied
+2023-05,Garlic Bread,Happy/Satisfied
+2023-05,Gulab Jamun,Happy/Satisfied
+2023-05,Ice Cream,Happy/Satisfied
+2023-05,Idli,Happy/Satisfied
+2023-05,Kofta Curry,Happy/Satisfied
+2023-05,Manchurian,Happy/Satisfied
+2023-05,Masala Dosa,Happy/Satisfied
+2023-05,Mixed Vegetable,Indifferent
+2023-05,Mushroom Soup,Happy/Satisfied
+2023-05,Mutton Curry,Indifferent
+2023-05,Paneer Butter Masala,Happy/Satisfied
+2023-05,Paneer Tikka,Happy/Satisfied
+2023-05,Pasta,Happy/Satisfied
+2023-05,Pav Bhaji,Happy/Satisfied
+2023-05,Rasmalai,Indifferent
+2023-05,Roti,Happy/Satisfied
+2023-05,Samosa,Happy/Satisfied
+2023-05,Spring Rolls,Happy/Satisfied
+2023-05,Uttapam,Happy/Satisfied
+2023-05,Vada,Happy/Satisfied
+2023-05,Veg Biryani,Indifferent
+2023-05,Veg Curry,Happy/Satisfied
+2023-05,bonda,Happy/Satisfied
+2023-05,egg,Happy/Satisfied
+2023-05,uggani,Sad/Dissatisfied
+2023-06,Caesar Salad,Indifferent
+2023-06,Chicken,Happy/Satisfied
+2023-06,Chicken Biryani,Happy/Satisfied
+2023-06,Chole Bhature,Happy/Satisfied
+2023-06,Egg Curry,Happy/Satisfied
+2023-06,Fish Curry,Indifferent
+2023-06,Fried Rice,Happy/Satisfied
+2023-06,Garlic Bread,Happy/Satisfied
+2023-06,Gulab Jamun,Happy/Satisfied
+2023-06,Ice Cream,Happy/Satisfied
+2023-06,Idli,Happy/Satisfied
+2023-06,Kofta Curry,Happy/Satisfied
+2023-06,Manchurian,Indifferent
+2023-06,Masala Dosa,Happy/Satisfied
+2023-06,Mixed Vegetable,Happy/Satisfied
+2023-06,Mushroom Soup,Sad/Dissatisfied
+2023-06,Mutton Curry,Indifferent
+2023-06,Paneer Butter Masala,Happy/Satisfied
+2023-06,Paneer Tikka,Indifferent
+2023-06,Pasta,Happy/Satisfied
+2023-06,Pav Bhaji,Indifferent
+2023-06,Rasmalai,Indifferent
+2023-06,Roti,Indifferent
+2023-06,Samosa,Happy/Satisfied
+2023-06,Spring Rolls,Happy/Satisfied
+2023-06,Uttapam,Happy/Satisfied
+2023-06,Vada,Happy/Satisfied
+2023-06,Veg Biryani,Indifferent
+2023-06,Veg Curry,Happy/Satisfied
+2023-06,bonda,Indifferent
+2023-06,egg,Sad/Dissatisfied
+2023-06,uggani,Sad/Dissatisfied
+2023-07,Caesar Salad,Happy/Satisfied
+2023-07,Chicken,Happy/Satisfied
+2023-07,Chicken Biryani,Happy/Satisfied
+2023-07,Chole Bhature,Happy/Satisfied
+2023-07,Egg Curry,Happy/Satisfied
+2023-07,Fish Curry,Happy/Satisfied
+2023-07,Fried Rice,Happy/Satisfied
+2023-07,Garlic Bread,Indifferent
+2023-07,Gulab Jamun,Happy/Satisfied
+2023-07,Ice Cream,Indifferent
+2023-07,Idli,Happy/Satisfied
+2023-07,Kofta Curry,Happy/Satisfied
+2023-07,Manchurian,Happy/Satisfied
+2023-07,Masala Dosa,Happy/Satisfied
+2023-07,Mixed Vegetable,Happy/Satisfied
+2023-07,Mushroom Soup,Happy/Satisfied
+2023-07,Mutton Curry,Happy/Satisfied
+2023-07,Paneer Butter Masala,Happy/Satisfied
+2023-07,Paneer Tikka,Happy/Satisfied
+2023-07,Pasta,Indifferent
+2023-07,Pav Bhaji,Happy/Satisfied
+2023-07,Rasmalai,Indifferent
+2023-07,Roti,Indifferent
+2023-07,Samosa,Happy/Satisfied
+2023-07,Spring Rolls,Indifferent
+2023-07,Uttapam,Happy/Satisfied
+2023-07,Vada,Happy/Satisfied
+2023-07,Veg Biryani,Happy/Satisfied
+2023-07,Veg Curry,Happy/Satisfied
+2023-07,bonda,Indifferent
+2023-07,egg,Happy/Satisfied
+2023-07,uggani,Sad/Dissatisfied
+2023-08,Caesar Salad,Indifferent
+2023-08,Chicken,Happy/Satisfied
+2023-08,Chicken Biryani,Happy/Satisfied
+2023-08,Chole Bhature,Happy/Satisfied
+2023-08,Egg Curry,Sad/Dissatisfied
+2023-08,Fish Curry,Unclear
+2023-08,Fried Rice,Happy/Satisfied
+2023-08,Garlic Bread,Sad/Dissatisfied
+2023-08,Gulab Jamun,Happy/Satisfied
+2023-08,Ice Cream,Happy/Satisfied
+2023-08,Idli,Sad/Dissatisfied
+2023-08,Kofta Curry,Happy/Satisfied
+2023-08,Manchurian,Sad/Dissatisfied
+2023-08,Masala Dosa,Happy/Satisfied
+2023-08,Mixed Vegetable,Indifferent
+2023-08,Mushroom Soup,Happy/Satisfied
+2023-08,Mutton Curry,Happy/Satisfied
+2023-08,Paneer Butter Masala,Happy/Satisfied
+2023-08,Paneer Tikka,Happy/Satisfied
+2023-08,Pasta,Happy/Satisfied
+2023-08,Pav Bhaji,Happy/Satisfied
+2023-08,Rasmalai,Indifferent
+2023-08,Roti,Happy/Satisfied
+2023-08,Samosa,Happy/Satisfied
+2023-08,Spring Rolls,Happy/Satisfied
+2023-08,Uttapam,Happy/Satisfied
+2023-08,Vada,Happy/Satisfied
+2023-08,Veg Biryani,Happy/Satisfied
+2023-08,Veg Curry,Indifferent
+2023-08,bonda,Sad/Dissatisfied
+2023-08,egg,Happy/Satisfied
+2023-08,uggani,Happy/Satisfied
+2023-09,Caesar Salad,Happy/Satisfied
+2023-09,Chicken,Indifferent
+2023-09,Chicken Biryani,Happy/Satisfied
+2023-09,Chole Bhature,Happy/Satisfied
+2023-09,Egg Curry,Indifferent
+2023-09,Fish Curry,Happy/Satisfied
+2023-09,Fried Rice,Happy/Satisfied
+2023-09,Garlic Bread,Happy/Satisfied
+2023-09,Gulab Jamun,Happy/Satisfied
+2023-09,Ice Cream,Indifferent
+2023-09,Idli,Sad/Dissatisfied
+2023-09,Kofta Curry,Happy/Satisfied
+2023-09,Manchurian,Happy/Satisfied
+2023-09,Masala Dosa,Happy/Satisfied
+2023-09,Mixed Vegetable,Indifferent
+2023-09,Mushroom Soup,Happy/Satisfied
+2023-09,Mutton Curry,Happy/Satisfied
+2023-09,Paneer Butter Masala,Happy/Satisfied
+2023-09,Paneer Tikka,Happy/Satisfied
+2023-09,Pasta,Happy/Satisfied
+2023-09,Pav Bhaji,Happy/Satisfied
+2023-09,Rasmalai,Happy/Satisfied
+2023-09,Roti,Happy/Satisfied
+2023-09,Samosa,Happy/Satisfied
+2023-09,Spring Rolls,Happy/Satisfied
+2023-09,Uttapam,Happy/Satisfied
+2023-09,Vada,Happy/Satisfied
+2023-09,Veg Biryani,Happy/Satisfied
+2023-09,Veg Curry,Happy/Satisfied
+2023-09,bonda,Happy/Satisfied
+2023-09,egg,Sad/Dissatisfied
+2023-09,uggani,Happy/Satisfied
+2023-10,Caesar Salad,Happy/Satisfied
+2023-10,Chicken,Happy/Satisfied
+2023-10,Chicken Biryani,Sad/Dissatisfied
+2023-10,Chole Bhature,Indifferent
+2023-10,Egg Curry,Happy/Satisfied
+2023-10,Fish Curry,Indifferent
+2023-10,Fried Rice,Indifferent
+2023-10,Garlic Bread,Happy/Satisfied
+2023-10,Gulab Jamun,Happy/Satisfied
+2023-10,Ice Cream,Happy/Satisfied
+2023-10,Idli,Indifferent
+2023-10,Kofta Curry,Happy/Satisfied
+2023-10,Manchurian,Indifferent
+2023-10,Masala Dosa,Happy/Satisfied
+2023-10,Mixed Vegetable,Indifferent
+2023-10,Mushroom Soup,Happy/Satisfied
+2023-10,Mutton Curry,Indifferent
+2023-10,Paneer Butter Masala,Indifferent
+2023-10,Paneer Tikka,Happy/Satisfied
+2023-10,Pasta,Indifferent
+2023-10,Pav Bhaji,Indifferent
+2023-10,Rasmalai,Indifferent
+2023-10,Roti,Happy/Satisfied
+2023-10,Samosa,Indifferent
+2023-10,Spring Rolls,Indifferent
+2023-10,Uttapam,Indifferent
+2023-10,Vada,Happy/Satisfied
+2023-10,Veg Biryani,Happy/Satisfied
+2023-10,Veg Curry,Happy/Satisfied
+2023-10,bonda,Indifferent
+2023-10,egg,Happy/Satisfied
+2023-10,uggani,Happy/Satisfied
+2023-11,Caesar Salad,Happy/Satisfied
+2023-11,Chicken Biryani,Happy/Satisfied
+2023-11,Chole Bhature,Happy/Satisfied
+2023-11,Egg Curry,Indifferent
+2023-11,Fish Curry,Unclear
+2023-11,Fried Rice,Happy/Satisfied
+2023-11,Garlic Bread,Unclear
+2023-11,Gulab Jamun,Sad/Dissatisfied
+2023-11,Ice Cream,Happy/Satisfied
+2023-11,Idli,Happy/Satisfied
+2023-11,Kofta Curry,Happy/Satisfied
+2023-11,Manchurian,Happy/Satisfied
+2023-11,Masala Dosa,Happy/Satisfied
+2023-11,Mixed Vegetable,Happy/Satisfied
+2023-11,Mushroom Soup,Happy/Satisfied
+2023-11,Mutton Curry,Happy/Satisfied
+2023-11,Paneer Butter Masala,Happy/Satisfied
+2023-11,Paneer Tikka,Happy/Satisfied
+2023-11,Pasta,Happy/Satisfied
+2023-11,Pav Bhaji,Indifferent
+2023-11,Rasmalai,Happy/Satisfied
+2023-11,Roti,Happy/Satisfied
+2023-11,Samosa,Happy/Satisfied
+2023-11,Spring Rolls,Happy/Satisfied
+2023-11,Uttapam,Happy/Satisfied
+2023-11,Vada,Indifferent
+2023-11,Veg Biryani,Indifferent
+2023-11,Veg Curry,Happy/Satisfied
+2023-11,bonda,Happy/Satisfied
+2023-11,egg,Happy/Satisfied
+2023-11,uggani,Happy/Satisfied
+2023-12,Caesar Salad,Sad/Dissatisfied
+2023-12,Chicken Biryani,Happy/Satisfied
+2023-12,Chole Bhature,Happy/Satisfied
+2023-12,Egg Curry,Happy/Satisfied
+2023-12,Fish Curry,Indifferent
+2023-12,Fried Rice,Happy/Satisfied
+2023-12,Garlic Bread,Happy/Satisfied
+2023-12,Gulab Jamun,Happy/Satisfied
+2023-12,Ice Cream,Unclear
+2023-12,Idli,Happy/Satisfied
+2023-12,Kofta Curry,Happy/Satisfied
+2023-12,Manchurian,Indifferent
+2023-12,Masala Dosa,Happy/Satisfied
+2023-12,Mixed Vegetable,Happy/Satisfied
+2023-12,Mushroom Soup,Happy/Satisfied
+2023-12,Mutton Curry,Indifferent
+2023-12,Paneer Butter Masala,Happy/Satisfied
+2023-12,Paneer Tikka,Happy/Satisfied
+2023-12,Pasta,Unclear
+2023-12,Pav Bhaji,Happy/Satisfied
+2023-12,Rasmalai,Happy/Satisfied
+2023-12,Samosa,Indifferent
+2023-12,Spring Rolls,Indifferent
+2023-12,Uttapam,Indifferent
+2023-12,Vada,Happy/Satisfied
+2023-12,Veg Biryani,Happy/Satisfied
+2023-12,Veg Curry,Indifferent
+2023-12,bonda,Happy/Satisfied
+2023-12,egg,Indifferent
+2023-12,uggani,Happy/Satisfied
+2024-01,Caesar Salad,Happy/Satisfied
+2024-01,Chicken,Indifferent
+2024-01,Chicken Biryani,Happy/Satisfied
+2024-01,Chole Bhature,Happy/Satisfied
+2024-01,Egg Curry,Indifferent
+2024-01,Fish Curry,Happy/Satisfied
+2024-01,Fried Rice,Indifferent
+2024-01,Garlic Bread,Happy/Satisfied
+2024-01,Gulab Jamun,Happy/Satisfied
+2024-01,Ice Cream,Happy/Satisfied
+2024-01,Idli,Happy/Satisfied
+2024-01,Kofta Curry,Happy/Satisfied
+2024-01,Manchurian,Happy/Satisfied
+2024-01,Masala Dosa,Sad/Dissatisfied
+2024-01,Mixed Vegetable,Indifferent
+2024-01,Mushroom Soup,Happy/Satisfied
+2024-01,Mutton Curry,Indifferent
+2024-01,Paneer Butter Masala,Indifferent
+2024-01,Paneer Tikka,Unclear
+2024-01,Pasta,Happy/Satisfied
+2024-01,Pav Bhaji,Happy/Satisfied
+2024-01,Rasmalai,Happy/Satisfied
+2024-01,Samosa,Happy/Satisfied
+2024-01,Spring Rolls,Indifferent
+2024-01,Uttapam,Happy/Satisfied
+2024-01,Vada,Happy/Satisfied
+2024-01,Veg Biryani,Happy/Satisfied
+2024-01,Veg Curry,Happy/Satisfied
+2024-01,bonda,Happy/Satisfied
+2024-01,egg,Indifferent
+2024-01,uggani,Happy/Satisfied
+2024-02,Caesar Salad,Happy/Satisfied
+2024-02,Chicken,Happy/Satisfied
+2024-02,Chicken Biryani,Happy/Satisfied
+2024-02,Egg Curry,Indifferent
+2024-02,Fish Curry,Happy/Satisfied
+2024-02,Fried Rice,Happy/Satisfied
+2024-02,Garlic Bread,Indifferent
+2024-02,Gulab Jamun,Indifferent
+2024-02,Ice Cream,Sad/Dissatisfied
+2024-02,Idli,Happy/Satisfied
+2024-02,Kofta Curry,Indifferent
+2024-02,Manchurian,Happy/Satisfied
+2024-02,Masala Dosa,Happy/Satisfied
+2024-02,Mixed Vegetable,Happy/Satisfied
+2024-02,Mushroom Soup,Happy/Satisfied
+2024-02,Mutton Curry,Indifferent
+2024-02,Paneer Butter Masala,Indifferent
+2024-02,Paneer Tikka,Happy/Satisfied
+2024-02,Pasta,Indifferent
+2024-02,Pav Bhaji,Happy/Satisfied
+2024-02,Rasmalai,Happy/Satisfied
+2024-02,Roti,Happy/Satisfied
+2024-02,Samosa,Indifferent
+2024-02,Spring Rolls,Happy/Satisfied
+2024-02,Uttapam,Happy/Satisfied
+2024-02,Vada,Happy/Satisfied
+2024-02,Veg Biryani,Happy/Satisfied
+2024-02,Veg Curry,Happy/Satisfied
+2024-02,bonda,Happy/Satisfied
+2024-02,egg,Happy/Satisfied
+2024-02,uggani,Happy/Satisfied
+2024-03,Caesar Salad,Happy/Satisfied
+2024-03,Chicken,Happy/Satisfied
+2024-03,Chicken Biryani,Happy/Satisfied
+2024-03,Chole Bhature,Indifferent
+2024-03,Egg Curry,Unclear
+2024-03,Fish Curry,Happy/Satisfied
+2024-03,Fried Rice,Happy/Satisfied
+2024-03,Garlic Bread,Happy/Satisfied
+2024-03,Gulab Jamun,Indifferent
+2024-03,Ice Cream,Happy/Satisfied
+2024-03,Idli,Happy/Satisfied
+2024-03,Kofta Curry,Happy/Satisfied
+2024-03,Manchurian,Happy/Satisfied
+2024-03,Masala Dosa,Happy/Satisfied
+2024-03,Mixed Vegetable,Happy/Satisfied
+2024-03,Mushroom Soup,Happy/Satisfied
+2024-03,Mutton Curry,Happy/Satisfied
+2024-03,Paneer Butter Masala,Happy/Satisfied
+2024-03,Paneer Tikka,Happy/Satisfied
+2024-03,Pasta,Happy/Satisfied
+2024-03,Pav Bhaji,Happy/Satisfied
+2024-03,Rasmalai,Happy/Satisfied
+2024-03,Roti,Indifferent
+2024-03,Samosa,Indifferent
+2024-03,Spring Rolls,Happy/Satisfied
+2024-03,Uttapam,Sad/Dissatisfied
+2024-03,Vada,Happy/Satisfied
+2024-03,Veg Biryani,Happy/Satisfied
+2024-03,Veg Curry,Happy/Satisfied
+2024-03,bonda,Happy/Satisfied
+2024-03,egg,Happy/Satisfied
+2024-03,uggani,Happy/Satisfied
+2024-04,Caesar Salad,Happy/Satisfied
+2024-04,Chicken,Sad/Dissatisfied
+2024-04,Chicken Biryani,Unclear
+2024-04,Chole Bhature,Indifferent
+2024-04,Egg Curry,Happy/Satisfied
+2024-04,Fish Curry,Happy/Satisfied
+2024-04,Fried Rice,Indifferent
+2024-04,Garlic Bread,Happy/Satisfied
+2024-04,Gulab Jamun,Happy/Satisfied
+2024-04,Ice Cream,Happy/Satisfied
+2024-04,Idli,Happy/Satisfied
+2024-04,Kofta Curry,Unclear
+2024-04,Manchurian,Happy/Satisfied
+2024-04,Masala Dosa,Happy/Satisfied
+2024-04,Mixed Vegetable,Indifferent
+2024-04,Mushroom Soup,Happy/Satisfied
+2024-04,Mutton Curry,Happy/Satisfied
+2024-04,Paneer Butter Masala,Unclear
+2024-04,Paneer Tikka,Happy/Satisfied
+2024-04,Pasta,Happy/Satisfied
+2024-04,Pav Bhaji,Happy/Satisfied
+2024-04,Rasmalai,Happy/Satisfied
+2024-04,Roti,Happy/Satisfied
+2024-04,Samosa,Indifferent
+2024-04,Spring Rolls,Happy/Satisfied
+2024-04,Uttapam,Indifferent
+2024-04,Vada,Indifferent
+2024-04,Veg Biryani,Happy/Satisfied
+2024-04,Veg Curry,Happy/Satisfied
+2024-04,bonda,Happy/Satisfied
+2024-04,egg,Happy/Satisfied
+2024-04,uggani,Happy/Satisfied
+2024-05,Caesar Salad,Indifferent
+2024-05,Chicken,Happy/Satisfied
+2024-05,Chicken Biryani,Indifferent
+2024-05,Chole Bhature,Happy/Satisfied
+2024-05,Egg Curry,Happy/Satisfied
+2024-05,Fish Curry,Happy/Satisfied
+2024-05,Fried Rice,Happy/Satisfied
+2024-05,Garlic Bread,Indifferent
+2024-05,Gulab Jamun,Happy/Satisfied
+2024-05,Ice Cream,Happy/Satisfied
+2024-05,Idli,Happy/Satisfied
+2024-05,Kofta Curry,Happy/Satisfied
+2024-05,Manchurian,Happy/Satisfied
+2024-05,Masala Dosa,Happy/Satisfied
+2024-05,Mixed Vegetable,Happy/Satisfied
+2024-05,Mushroom Soup,Indifferent
+2024-05,Mutton Curry,Unclear
+2024-05,Paneer Butter Masala,Happy/Satisfied
+2024-05,Paneer Tikka,Happy/Satisfied
+2024-05,Pasta,Happy/Satisfied
+2024-05,Pav Bhaji,Happy/Satisfied
+2024-05,Rasmalai,Happy/Satisfied
+2024-05,Roti,Indifferent
+2024-05,Samosa,Happy/Satisfied
+2024-05,Spring Rolls,Indifferent
+2024-05,Uttapam,Indifferent
+2024-05,Vada,Happy/Satisfied
+2024-05,Veg Biryani,Happy/Satisfied
+2024-05,Veg Curry,Happy/Satisfied
+2024-05,bonda,Happy/Satisfied
+2024-05,egg,Happy/Satisfied
+2024-05,uggani,Happy/Satisfied
+2024-06,Caesar Salad,Sad/Dissatisfied
+2024-06,Chicken,Happy/Satisfied
+2024-06,Chicken Biryani,Unclear
+2024-06,Chole Bhature,Unclear
+2024-06,Egg Curry,Happy/Satisfied
+2024-06,Fish Curry,Sad/Dissatisfied
+2024-06,Fried Rice,Happy/Satisfied
+2024-06,Garlic Bread,Happy/Satisfied
+2024-06,Gulab Jamun,Happy/Satisfied
+2024-06,Ice Cream,Indifferent
+2024-06,Idli,Happy/Satisfied
+2024-06,Kofta Curry,Indifferent
+2024-06,Manchurian,Happy/Satisfied
+2024-06,Masala Dosa,Happy/Satisfied
+2024-06,Mixed Vegetable,Happy/Satisfied
+2024-06,Mushroom Soup,Happy/Satisfied
+2024-06,Mutton Curry,Happy/Satisfied
+2024-06,Paneer Butter Masala,Happy/Satisfied
+2024-06,Paneer Tikka,Happy/Satisfied
+2024-06,Pasta,Happy/Satisfied
+2024-06,Pav Bhaji,Happy/Satisfied
+2024-06,Rasmalai,Happy/Satisfied
+2024-06,Roti,Sad/Dissatisfied
+2024-06,Samosa,Happy/Satisfied
+2024-06,Spring Rolls,Happy/Satisfied
+2024-06,Uttapam,Happy/Satisfied
+2024-06,Vada,Indifferent
+2024-06,Veg Biryani,Happy/Satisfied
+2024-06,Veg Curry,Happy/Satisfied
+2024-06,bonda,Happy/Satisfied
+2024-06,egg,Happy/Satisfied
+2024-06,uggani,Happy/Satisfied
+2024-07,Caesar Salad,Indifferent
+2024-07,Chicken,Happy/Satisfied
+2024-07,Chicken Biryani,Happy/Satisfied
+2024-07,Chole Bhature,Happy/Satisfied
+2024-07,Egg Curry,Indifferent
+2024-07,Fish Curry,Happy/Satisfied
+2024-07,Fried Rice,Happy/Satisfied
+2024-07,Garlic Bread,Happy/Satisfied
+2024-07,Gulab Jamun,Happy/Satisfied
+2024-07,Ice Cream,Indifferent
+2024-07,Idli,Happy/Satisfied
+2024-07,Kofta Curry,Indifferent
+2024-07,Manchurian,Happy/Satisfied
+2024-07,Masala Dosa,Happy/Satisfied
+2024-07,Mixed Vegetable,Happy/Satisfied
+2024-07,Mushroom Soup,Indifferent
+2024-07,Mutton Curry,Happy/Satisfied
+2024-07,Paneer Butter Masala,Happy/Satisfied
+2024-07,Paneer Tikka,Happy/Satisfied
+2024-07,Pasta,Happy/Satisfied
+2024-07,Pav Bhaji,Happy/Satisfied
+2024-07,Rasmalai,Unclear
+2024-07,Roti,Happy/Satisfied
+2024-07,Samosa,Happy/Satisfied
+2024-07,Spring Rolls,Indifferent
+2024-07,Uttapam,Happy/Satisfied
+2024-07,Vada,Happy/Satisfied
+2024-07,Veg Biryani,Happy/Satisfied
+2024-07,Veg Curry,Happy/Satisfied
+2024-07,bonda,Unclear
+2024-07,egg,Happy/Satisfied
+2024-07,uggani,Happy/Satisfied
+2024-08,Caesar Salad,Unclear
+2024-08,Chicken,Happy/Satisfied
+2024-08,Chicken Biryani,Happy/Satisfied
+2024-08,Chole Bhature,Happy/Satisfied
+2024-08,Egg Curry,Happy/Satisfied
+2024-08,Fish Curry,Happy/Satisfied
+2024-08,Fried Rice,Happy/Satisfied
+2024-08,Garlic Bread,Happy/Satisfied
+2024-08,Gulab Jamun,Happy/Satisfied
+2024-08,Ice Cream,Indifferent
+2024-08,Idli,Happy/Satisfied
+2024-08,Kofta Curry,Happy/Satisfied
+2024-08,Manchurian,Happy/Satisfied
+2024-08,Masala Dosa,Happy/Satisfied
+2024-08,Mixed Vegetable,Happy/Satisfied
+2024-08,Mushroom Soup,Indifferent
+2024-08,Mutton Curry,Happy/Satisfied
+2024-08,Paneer Butter Masala,Happy/Satisfied
+2024-08,Paneer Tikka,Indifferent
+2024-08,Pasta,Happy/Satisfied
+2024-08,Pav Bhaji,Happy/Satisfied
+2024-08,Rasmalai,Happy/Satisfied
+2024-08,Roti,Happy/Satisfied
+2024-08,Samosa,Happy/Satisfied
+2024-08,Spring Rolls,Indifferent
+2024-08,Uttapam,Happy/Satisfied
+2024-08,Vada,Unclear
+2024-08,Veg Biryani,Indifferent
+2024-08,Veg Curry,Happy/Satisfied
+2024-08,bonda,Happy/Satisfied
+2024-08,egg,Happy/Satisfied
+2024-08,uggani,Indifferent
+2024-09,Caesar Salad,Happy/Satisfied
+2024-09,Chicken,Happy/Satisfied
+2024-09,Chicken Biryani,Indifferent
+2024-09,Chole Bhature,Unclear
+2024-09,Egg Curry,Indifferent
+2024-09,Fish Curry,Indifferent
+2024-09,Fried Rice,Happy/Satisfied
+2024-09,Garlic Bread,Happy/Satisfied
+2024-09,Gulab Jamun,Happy/Satisfied
+2024-09,Ice Cream,Indifferent
+2024-09,Idli,Indifferent
+2024-09,Manchurian,Indifferent
+2024-09,Masala Dosa,Happy/Satisfied
+2024-09,Mixed Vegetable,Indifferent
+2024-09,Mushroom Soup,Sad/Dissatisfied
+2024-09,Mutton Curry,Happy/Satisfied
+2024-09,Paneer Butter Masala,Happy/Satisfied
+2024-09,Paneer Tikka,Indifferent
+2024-09,Pasta,Sad/Dissatisfied
+2024-09,Pav Bhaji,Happy/Satisfied
+2024-09,Rasmalai,Happy/Satisfied
+2024-09,Roti,Indifferent
+2024-09,Samosa,Happy/Satisfied
+2024-09,Spring Rolls,Sad/Dissatisfied
+2024-09,Uttapam,Indifferent
+2024-09,Vada,Happy/Satisfied
+2024-09,Veg Biryani,Happy/Satisfied
+2024-09,Veg Curry,Happy/Satisfied
+2024-09,bonda,Indifferent
+2024-09,egg,Happy/Satisfied
+2024-09,uggani,Happy/Satisfied
