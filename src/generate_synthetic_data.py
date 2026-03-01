@@ -2,7 +2,6 @@ import random
 from datetime import datetime, timedelta
 import pandas as pd
 
-
 MENU_ITEMS = [
     "Idli", "Dosa", "Pongal", "Sambar Rice", "Curd Rice",
     "Veg Curry", "Chicken Biryani", "Veg Biryani", "Roti",
@@ -28,6 +27,8 @@ NEUTRAL = [
     "It was fine, could be better.",
     "Neither good nor bad, just normal.",
     "Decent meal overall.",
+    "okish.",
+    "meh.",
 ]
 
 NEGATIVE = [
@@ -67,7 +68,7 @@ NEGATIVE = [
     "The quantity was not enough.",
     "The serving was not sufficient.",
 
-    # Missing items (few, not dominant)
+    # Missing items
     "The meal was missing an important ingredient.",
     "The side dish mentioned in the menu was missing.",
     "The gravy was missing today.",
@@ -77,11 +78,98 @@ NEGATIVE = [
     "The food was served very late.",
 ]
 
+# --- NEW: hard/ambiguous patterns to avoid perfect separability ---
+
+MIXED = [
+    # mixed sentiment (harder)
+    "The food tasted good but it was served too cold.",
+    "Good flavors, but the portion was too small.",
+    "Nice taste, but it felt too oily.",
+    "Fresh meal, but service was delayed.",
+    "Quality was okay, but the roti was too hard.",
+]
+
+NEGATION_TRAPS = [
+    "Not bad, but could be better.",
+    "Not good today.",
+    "It wasn't great.",
+    "It wasn't terrible, just average.",
+    "Not spicy enough, not salty enough.",
+]
+
+MILD_NEG = [
+    "A bit salty.",
+    "Slightly oily.",
+    "A little too spicy.",
+    "Portion felt slightly small.",
+    "Texture was a bit off.",
+]
+
+TYPO_VARIANTS = {
+    "spicy": ["spcy", "spicyy"],
+    "salty": ["salti", "saltyy"],
+    "greasy": ["greesy", "greasyy"],
+    "oily": ["oil", "oilly"],
+}
+
+def _maybe_add_item_context(text: str, menu_item: str) -> str:
+    # 30% chance: add menu item mention for realism
+    if random.random() < 0.30:
+        return f"{menu_item} - {text}"
+    return text
+
+def _maybe_add_mild_intensity(text: str) -> str:
+    # 15% chance: add natural intensifiers
+    if random.random() < 0.15:
+        return text.replace("too", "a bit too").replace("was", "was a bit")
+    return text
+
+def _maybe_add_typos(text: str) -> str:
+    # very small chance: add typos to simulate real feedback
+    if random.random() < 0.05:
+        for word, variants in TYPO_VARIANTS.items():
+            if word in text.lower() and random.random() < 0.5:
+                text = re_sub_word(text, word, random.choice(variants))
+    return text
+
+def re_sub_word(text: str, word: str, repl: str) -> str:
+    # simple word replacement (case-insensitive-ish)
+    return " ".join([repl if w.lower().strip(".,!?") == word else w for w in text.split()])
+
+def _sample_feedback(label: str) -> str:
+    # introduce controlled ambiguity so ML isn't perfect
+    if label == "Positive":
+        # 10% mixed/negation to create edge cases
+        r = random.random()
+        if r < 0.06:
+            return random.choice(MIXED)
+        if r < 0.10:
+            return random.choice(NEGATION_TRAPS)
+        return random.choice(POSITIVE)
+
+    if label == "Neutral":
+        # 15% can look slightly positive/negative
+        r = random.random()
+        if r < 0.07:
+            return random.choice(POSITIVE)
+        if r < 0.15:
+            return random.choice(MILD_NEG)
+        return random.choice(NEUTRAL)
+
+    # Negative
+    r = random.random()
+    if r < 0.15:
+        return random.choice(MIXED)
+    if r < 0.25:
+        return random.choice(NEGATION_TRAPS)
+    if r < 0.35:
+        return random.choice(MILD_NEG)
+    return random.choice(NEGATIVE)
 
 def generate_dataset(
     n: int = 3000,
-    pos_ratio: float = 0.70,
-    neu_ratio: float = 0.25,
+    pos_ratio: float = 0.50,
+    neu_ratio: float = 0.30,
     seed: int = 42,
 ) -> pd.DataFrame:
     random.seed(seed)
@@ -103,12 +191,11 @@ def generate_dataset(
         meal_time = random.choice(MEAL_TIMES)
 
         lab = labels[i]
-        if lab == "Positive":
-            feedback_text = random.choice(POSITIVE)
-        elif lab == "Neutral":
-            feedback_text = random.choice(NEUTRAL)
-        else:
-            feedback_text = random.choice(NEGATIVE)
+        feedback_text = _sample_feedback(lab)
+
+        feedback_text = _maybe_add_item_context(feedback_text, menu_item)
+        feedback_text = _maybe_add_mild_intensity(feedback_text)
+        feedback_text = _maybe_add_typos(feedback_text)
 
         ts = start + timedelta(days=random.randint(0, days))
 
@@ -120,7 +207,6 @@ def generate_dataset(
         })
 
     return pd.DataFrame(rows)
-
 
 if __name__ == "__main__":
     df = generate_dataset(n=3000)

@@ -7,8 +7,8 @@ class Config:
     output_dir: str = "outputs"
 
     # VADER thresholds
-    pos_threshold: float = 0.05
-    neg_threshold: float = -0.05
+    pos_threshold: float = 0.1
+    neg_threshold: float = -0.1
 
     # Menu health scoring
     negative_penalty: float = 0.7   # penalize high negative ratio

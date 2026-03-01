@@ -16,7 +16,7 @@ from src.config import Config
 from src.pipeline import run_pipeline
 
 st.set_page_config(page_title="Menu Management System", layout="wide")
-st.title("🍽️ Hostel Menu Management Intelligence System")
+st.title("🍽️ Adaptive Hostel Menu Management System Using Students Sentiments and Cognitive insights")
 
 cfg = Config()
 
@@ -142,6 +142,8 @@ if os.path.exists(metrics_file) and os.path.exists(cm_file):
 
     cm = np.loadtxt(cm_file, delimiter=",")
     st.write(f"**Accuracy:** {metrics['accuracy']:.4f}")
+    st.caption(f"Evaluation set: {metrics.get('evaluation_set', 'unknown')}")
+    st.caption(f"Gold upsample: {metrics.get('gold_train_upsample', 'N/A')}")
 
     labels = metrics["labels_order"]
     st.dataframe(

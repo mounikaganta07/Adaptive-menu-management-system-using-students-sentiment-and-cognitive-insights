@@ -1,0 +1,21 @@
+feedback_text,sentiment_label
+"It tasted strange and I didn’t enjoy it",Negative
+"The curry was decent but lacked depth",Neutral
+"The meal felt heavy but flavorful",Neutral
+"The rice was soft and nicely cooked",Positive
+"The food wasn’t fresh enough",Negative
+"The meal was too dry for my liking",Negative
+"The taste improved compared to last week",Positive
+"It was okay but could be improved",Neutral
+"The food was slightly cold but tasty",Neutral
+"The dish was enjoyable despite being spicy",Positive
+"The flavors were confusing and inconsistent",Negative
+"The quality was acceptable for the price",Neutral
+"The service was fine and the food was decent",Neutral
+"The meal was bland but presentation was good",Neutral
+"The food was extremely tasty and satisfying",Positive
+"The curry had too much oil and tasted off",Negative
+"It was not what I expected",Neutral
+"The meal was warm and comforting",Positive
+"The rice tasted stale and unpleasant",Negative
+"Overall it was a good experience",Positive

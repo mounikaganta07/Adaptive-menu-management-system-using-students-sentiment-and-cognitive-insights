@@ -1,0 +1,31 @@
+feedback_text,sentiment_label
+"The food was good but slightly cold",Neutral
+"Idli tasted fresh but the sambar was bland",Neutral
+"The meal was okay nothing impressive",Neutral
+"Roti was hard but curry was nice",Neutral
+"The food wasn’t bad actually",Neutral
+"The taste was fine but service was slow",Neutral
+"The rice was undercooked and unpleasant",Negative
+"The curry was too oily and heavy",Negative
+"The food smelled stale today",Negative
+"Portion size was too small for lunch",Negative
+"The dish lacked seasoning and flavor",Negative
+"The meal was too salty to enjoy",Negative
+"The vegetables were overcooked and mushy",Negative
+"Food was served late and cold",Negative
+"The overall quality felt poor",Negative
+"Breakfast was satisfying and warm",Positive
+"The flavors were balanced and enjoyable",Positive
+"Chicken biryani was delicious and fresh",Positive
+"The meal was light and tasty",Positive
+"The food tasted great today",Positive
+"Paneer curry was rich and flavorful",Positive
+"Dinner was excellent and filling",Positive
+"The texture was perfect and well cooked",Positive
+"Service was quick and food was hot",Positive
+"The experience was wonderful overall",Positive
+"The food was not great but still edible",Neutral
+"It was slightly spicy but I liked it",Positive
+"Not very good but not terrible either",Neutral
+"The dish was average and acceptable",Neutral
+"The food was fresh although a bit oily",Neutral
