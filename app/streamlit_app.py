@@ -142,6 +142,8 @@ if os.path.exists(metrics_file) and os.path.exists(cm_file):
 
     cm = np.loadtxt(cm_file, delimiter=",")
     st.write(f"**Accuracy:** {metrics['accuracy']:.4f}")
+    macro_f1 = metrics["classification_report"]["macro avg"]["f1-score"]
+    st.metric("Macro F1 Score", round(macro_f1, 3))
     st.caption(f"Evaluation set: {metrics.get('evaluation_set', 'unknown')}")
     st.caption(f"Gold upsample: {metrics.get('gold_train_upsample', 'N/A')}")
 

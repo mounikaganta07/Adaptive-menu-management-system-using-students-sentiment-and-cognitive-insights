@@ -75,8 +75,14 @@ http://127.0.0.1:8000/docs
 - Complaint extraction is rule-based to ensure actionable business categories rather than noisy statistical n-grams.
 - The system is designed as an internal analytics platform, focusing on reliability, modularity, and automation.
 
-## ML Evaluation (Honest Setup)
+## ML Evaluation Strategy
 
-- Training labels come from VADER pseudo-labels on synthetic feedback.
-- Final evaluation is done on a human-labeled gold test set (`data/raw/gold_test.csv`) to avoid leakage and inflated scores.
-- Because gold labels are higher quality but smaller in volume, gold training samples are upsampled during training (e.g., 10x) to increase their influence without touching the gold test set.
+The model is trained on synthetic feedback labeled using VADER.
+To avoid inflated accuracy, final evaluation is performed on a
+human-labeled gold test set (`data/raw/gold_test.csv`).
+
+Since gold labels are higher quality but limited in size,
+gold training samples are upsampled during training (10x)
+to increase influence while keeping the gold test set untouched.
+
+This ensures honest and realistic evaluation.
