@@ -1,4 +1,4 @@
-# Hostel Menu Management Intelligence System
+# Adaptive Hostel Menu Management using Student Sentiments and Cognitive Insights
 
 An internal-style analytics and automation platform for hostel menu decision support.
 
