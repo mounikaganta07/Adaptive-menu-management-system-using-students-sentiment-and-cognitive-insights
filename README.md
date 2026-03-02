@@ -86,3 +86,11 @@ gold training samples are upsampled during training (10x)
 to increase influence while keeping the gold test set untouched.
 
 This ensures honest and realistic evaluation.
+## Results (Gold Test Set)
+- Accuracy: 0.65
+- Precision (weighted): 0.6733
+- Recall (weighted): 0.65
+- F1 (weighted): 0.6315
+
+> Note: Training labels are generated using VADER (weak supervision). Metrics are reported on a small gold-labeled test set.
+
