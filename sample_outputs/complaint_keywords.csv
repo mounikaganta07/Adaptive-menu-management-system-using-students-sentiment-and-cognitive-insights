@@ -1,0 +1,46 @@
+menu_item,category,keyword,count
+Bonda,Missing,ingredient missing,1
+Bonda,Missing,missing item,1
+Bonda,Texture,texture issue,1
+Bonda,Temperature,temperature issue,1
+Bonda,Taste,flavor issue,1
+Chicken Biryani,Service,service delayed,2
+Chicken Biryani,Service,service issue,2
+Chicken Biryani,Missing,missing item,1
+Curd Rice,Missing,missing item,2
+Curd Rice,Texture,too hard,1
+Curd Rice,Missing,ingredient missing,1
+Dosa,Other,general complaint,1
+Fish Curry,Quality,quality issue,3
+Fish Curry,Texture,texture issue,1
+Fish Curry,Texture,too hard,1
+Fish Curry,Quality,stale/smell issue,1
+Gulab Jamun,Missing,missing item,1
+Gulab Jamun,Quality,stale/smell issue,1
+Ice Cream,Quality,quality issue,2
+Ice Cream,Missing,missing item,1
+Idli,Missing,missing item,2
+Mutton Curry,Missing,missing item,1
+Paneer Curry,Temperature,temperature issue,1
+Paneer Curry,Missing,missing item,1
+Paneer Curry,Texture,too hard,1
+Pongal,Missing,missing item,1
+Roti,Taste,flavor issue,1
+Roti,Service,service delayed,1
+Roti,Service,service issue,1
+Roti,Quality,stale/smell issue,1
+Sambar Rice,Other,general complaint,1
+Samosa,Texture,texture issue,1
+Uggani,Missing,missing item,1
+Uggani,Texture,texture issue,1
+Uggani,Taste,flavor issue,1
+Vada,Missing,missing item,2
+Vada,Texture,too hard,1
+Vada,Missing,ingredient missing,1
+Veg Biryani,Texture,texture issue,2
+Veg Biryani,Texture,too hard,1
+Veg Biryani,Temperature,temperature issue,1
+Veg Curry,Texture,texture issue,1
+Veg Curry,Temperature,temperature issue,1
+Veg Curry,Missing,ingredient missing,1
+Veg Curry,Missing,missing item,1
