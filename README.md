@@ -1,96 +1,66 @@
-# Adaptive Hostel Menu Management using Student Sentiments and Cognitive Insights
+# Adaptive Hostel Menu Management using Student Sentiment's and Cognitive Insights
 
-An internal-style analytics and automation platform for hostel menu decision support.
+A data-driven system that analyzes student food feedback to help improve hostel menu planning.
 
-## What it does (implemented)
+The project processes feedback text, performs sentiment analysis, generates trend reports, and produces actionable insights for administrators.
 
-- Cleans feedback text and scores sentiment using VADER (Positive / Neutral / Negative)
-- Trains an ML sentiment classifier (TF-IDF + Logistic Regression) using VADER pseudo-labels
-- Evaluates ML model with accuracy, precision, recall, F1-score, and confusion matrix
-- Generates trend reports (menu item, meal time, monthly, and monthly per item analysis)
-- Computes a Menu Health Score per item and produces admin actions (Keep / Improve / Replace)
-- Extracts categorized complaint keywords from negative feedback (temperature, taste, quality, service, etc.)
-- Provides an interactive Streamlit dashboard for filtering, charts, and admin insights
-- Exposes a FastAPI service with `/health` and `/run` endpoints (internal platform style)
-- Includes unit tests (pytest) and GitHub Actions CI workflow
+## Features
+
+- Sentiment analysis using VADER
+- ML sentiment classifier (TF-IDF + Logistic Regression)
+- Trend analysis by menu item, meal time, and month
+- Menu Health Score with recommended actions (Keep / Improve / Replace)
+- Complaint keyword extraction from negative feedback
+- Interactive Streamlit dashboard
+- FastAPI service for running the pipeline
+- Automated CI checks and unit tests
+
+## Tech Stack
+
+Python, Pandas, Scikit-learn, NLTK (VADER), Streamlit, FastAPI, Pytest, GitHub Actions
 
 ## Project Structure
 
-- `data/raw/` input CSV (required columns: feedback_text, feedback_timestamp, menu_item, meal_time)
-- `data/processed/` generated dataset with sentiment labels
-- `outputs/` generated reports and ML metrics
-- `src/` modular pipeline (preprocessing, sentiment, ML, trends, intelligence, CLI)
-- `app/` Streamlit dashboard
-- `api/` FastAPI service
-- `tests/` unit tests
-- `.github/workflows/` CI configuration
+```
+src/        Core pipeline modules
+app/        Streamlit dashboard
+api/        FastAPI service
+data/       Input datasets
+outputs/    Generated reports
+tests/      Unit tests
+```
 
-## Required Input Columns
-
-CSV must contain:
-
-- `feedback_text`
-- `feedback_timestamp`
-- `menu_item`
-- `meal_time`
-
-## Quick Start (VS Code)
+## Setup
 
 ```bash
 python -m venv .venv
-
-# Windows:
-.venv\Scripts\activate
-
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-### Run Dashboard
-
-```bash
-streamlit run app/streamlit_app.py
-```
-
-### Run Pipeline via CLI
+## Run Pipeline
 
 ```bash
 python -m src.cli --input data/raw/synthetic_feedback_data.csv --out outputs
 ```
 
-## Run API (Optional)
+## Run Dashboard
 
 ```bash
-uvicorn api.main:app --reload
+streamlit run app/streamlit_app.py
 ```
 
-Open:
-```
-http://127.0.0.1:8000/docs
-```
+## Model Evaluation
 
-## Design Notes
+The ML classifier is trained on VADER pseudo-labels and evaluated on a human-labeled gold dataset.
 
-- VADER is used for lightweight sentiment scoring without requiring labeled data.
-- TF-IDF + Logistic Regression provides a supervised validation baseline.
-- Complaint extraction is rule-based to ensure actionable business categories rather than noisy statistical n-grams.
-- The system is designed as an internal analytics platform, focusing on reliability, modularity, and automation.
+Current results:
 
-## ML Evaluation Strategy
+- Accuracy: 0.65  
+- Precision (weighted): 0.67  
+- Recall (weighted): 0.65  
+- F1-score (weighted): 0.63
 
-The model is trained on synthetic feedback labeled using VADER.
-To avoid inflated accuracy, final evaluation is performed on a
-human-labeled gold test set (`data/raw/gold_test.csv`).
+## Purpose
 
-Since gold labels are higher quality but limited in size,
-gold training samples are upsampled during training (10x)
-to increase influence while keeping the gold test set untouched.
-
-This ensures honest and realistic evaluation.
-## Results (Gold Test Set)
-- Accuracy: 0.65
-- Precision (weighted): 0.6733
-- Recall (weighted): 0.65
-- F1 (weighted): 0.6315
-
-> Note: Training labels are generated using VADER (weak supervision). Metrics are reported on a small gold-labeled test set.
-
+Designed as an internal analytics tool to help improve food quality, detect recurring complaints, and support better menu decisions.
